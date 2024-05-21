@@ -5,8 +5,8 @@ on:
 
 jobs:
   list-versions:
-    runs-on: macos-latest
+    runs-on: macos-10.15
     steps:
       - name: List macOS Installers
         run: |
-          softwareupdate --list-full-installers --force
+          softwareupdate --list-full-installers
