@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: List macOS Installers
         run: |
-          softwareupdate --list-full-installers
+          softwareupdate --list-full-installers --force
