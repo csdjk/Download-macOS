@@ -1,0 +1,12 @@
+name: List macOS Versions
+
+on:
+  workflow_dispatch:
+
+jobs:
+  list-versions:
+    runs-on: macos-latest
+    steps:
+      - name: List macOS Installers
+        run: |
+          softwareupdate --list-full-installers
