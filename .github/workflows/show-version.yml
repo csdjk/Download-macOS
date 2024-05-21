@@ -5,7 +5,7 @@ on:
 
 jobs:
   list-versions:
-    runs-on: macos-12.7.3
+    runs-on: macos-13
     steps:
       - name: List macOS Installers
         run: |
